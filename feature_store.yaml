@@ -3,25 +3,25 @@ provider: local
 registry:
     registry_store_type: PostgreSQLRegistryStore
     path: feast_registry
-    host: DB_HOST
-    port: DB_PORT
-    database: DB_NAME
-    db_schema: DB_SCHEMA
-    user: DB_USERNAME
-    password: DB_PASSWORD
+    host: 172.21.173.212
+    port: 5432
+    database: sampledb
+    db_schema: public
+    user: userYNG
+    password: 2VhoUSlfty5hH7vY
 online_store:
     type: postgres
-    host: DB_HOST
-    port: DB_PORT
-    database: DB_NAME
-    db_schema: DB_SCHEMA
-    user: DB_USERNAME
-    password: DB_PASSWORD
+    host: 172.21.173.212
+    port: 5432
+    database: sampledb
+    db_schema: public
+    user: userYNG
+    password: 2VhoUSlfty5hH7vY
 offline_store:
     type: postgres
-    host: DB_HOST
-    port: DB_PORT
-    database: DB_NAME
-    db_schema: DB_SCHEMA
-    user: DB_USERNAME
-    password: DB_PASSWORD
+    host: 172.21.173.212
+    port: 5432
+    database: sampledb
+    db_schema: public
+    user: userYNG
+    password: 2VhoUSlfty5hH7vY
